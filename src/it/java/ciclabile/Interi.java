@@ -65,7 +65,7 @@ public class Interi {
     
     public void stampa() {
         if (hasAncoraElementi()) {
-            System.out.println(getElementoSuccessivo());
+            System.out.println("indice: " + indiceCorrente + " numero: " + getElementoSuccessivo());
             stampa();
         }
     }
