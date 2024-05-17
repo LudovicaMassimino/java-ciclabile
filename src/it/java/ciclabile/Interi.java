@@ -39,11 +39,13 @@ public class Interi {
 	
 	// Metodo per aggiungere un nuovo elemento all'elenco
     public void addElemento(int nuovoElemento) {
+    	
         if (numeroElementi == elementi.length) {
             // Espande l'array se necessario
             int[] nuovoArray = new int[elementi.length * 2];
             for (int i = 0; i < elementi.length; i++) {
                 nuovoArray[i] = elementi[i];
+                
             }
             elementi = nuovoArray;
         }
@@ -65,7 +67,7 @@ public class Interi {
     
     public void stampa() {
         if (hasAncoraElementi()) {
-            System.out.println("indice: " + indiceCorrente + " numero: " + getElementoSuccessivo());
+            System.out.println(getElementoSuccessivo());
             stampa();
         }
     }
