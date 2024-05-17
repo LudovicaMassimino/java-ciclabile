@@ -19,7 +19,7 @@ public class Main {
         // riportare la posizione a 0 per ciclarli ancora
 		elenco.getNumeroElementi();
 		
-		// Stampa tutti gli elementi nuovamente utilizzando la ricorsione
+		// Stampa tutti gli elementi nuovamente
         elenco.stampa();
     }
 }
